@@ -71,8 +71,8 @@ dependencies:
   flutter_google_places_web: ^1.0.0
   checkbox_formfield: ^0.2.0
   carousel_slider: ^4.0.0
-  # searchfield: ^0.6.4 
-  easy_autocomplete: ^1.5.0
+  searchfield: ^0.7.2 
+  easy_autocomplete: ^1.6.0
   firebase_messaging: ^14.1.1
   flutter_local_notifications: ^9.4.0
   country_code_picker: ^2.0.2
@@ -91,7 +91,7 @@ dependencies:
 
 
   provider: ^6.0.3
-  searchfield:
+  # searchfield:
   autocomplete_textfield: ^2.0.1
 
  

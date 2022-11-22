@@ -76,11 +76,18 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
-  await Firebase.initializeApp();
-// comment
+  await Firebase.initializeApp(
+    options: const FirebaseOptions(
+      apiKey: "AIzaSyBLD6cGYyPsFc32eYDByJ9eLCE53Ntcsnc", // Your apiKey
+      appId: "1:1050628517372:web:1c7d79559e1e23149dd679", // Your appId
+      messagingSenderId: "1050628517372", // Your messagingSenderId
+      projectId: "shipment-f4fd0", // Your projectId
+    ),
+  );
+
   runApp(
     EasyLocalization(
-        supportedLocales: [
+        supportedLocales: const [
           Locale('en', 'US'),
           Locale('fr', 'FR'),
           Locale('es', 'US')
@@ -89,7 +96,7 @@ Future main() async {
 
         path:
             'assets/translation', // <-- change the path of the translation files
-        fallbackLocale: Locale('en', 'US'),
+        fallbackLocale: const Locale('en', 'US'),
         child: MyApp()),
   );
 }

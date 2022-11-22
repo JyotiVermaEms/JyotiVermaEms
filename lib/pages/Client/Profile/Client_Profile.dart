@@ -16,7 +16,7 @@ import 'package:shipment/Model/Client/ViewBookingModel.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
-import 'package:pie_chart/pie_chart.dart';
+// import 'package:pie_chart/pie_chart.dart';
 import 'package:searchfield/searchfield.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shipment/Element/Sidebar.dart';

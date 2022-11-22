@@ -54,7 +54,7 @@ class _TermsConditonState extends State<TermsConditon> {
                   shrinkWrap: true,
                   style: {
                     "body": Style(
-                        margin: EdgeInsets.zero,
+                        // margin: EdgeInsets.zero,
                         padding: EdgeInsets.zero,
                         color: Colors.black,
                         fontSize: FontSize(16),

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1050628517372",
+    "project_id": "shipment-f4fd0",
+    "storage_bucket": "shipment-f4fd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050628517372:android:aa48581fde22b1d39dd679",
+        "android_client_info": {
+          "package_name": "com.example.newshipment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050628517372-qkark74l450lm60na81d1uj5ghfp3fgr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newshipment",
+            "certificate_hash": "6f4bdbd2b34f279ec7df4030630f6cd489b0f297"
+          }
+        },
+        {
+          "client_id": "1050628517372-0vd5to070calvcmk1mrieoonjpemc4g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3u7hl3flUgGRlsehTuWtqWHkpOz5p2eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050628517372-0vd5to070calvcmk1mrieoonjpemc4g6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1050628517372-ieeto7931d0o7rfcc1hpe3u30u2q9obq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.newshipment"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
